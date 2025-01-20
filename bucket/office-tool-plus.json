@@ -1,5 +1,5 @@
 {
-    "version": "10.6.2.0",
+    "version": "10.19.8.0",
     "description": "A powerful and useful tool for Office deployments",
     "homepage": "https://otp.landian.vip/",
     "license": "GPL-3.0-or-later",
@@ -8,16 +8,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/YerongAI/Office-Tool/releases/download/v10.6.2.0/Office_Tool_v10.6.2.0_x64.zip",
-            "hash": "3a2922f2175679702e83dcd96f33b10910ee4f8ef2796039a6bea125d2a57ae7"
+            "url": "https://github.com/YerongAI/Office-Tool/releases/download/v10.19.8.0/Office_Tool_v10.19.8.0_x64.zip",
+            "hash": "7ddb47696a0aaafbd475728fbf6d4c6d1735465c9c924dac06f498c8e08bd0bd"
         },
         "32bit": {
-            "url": "https://github.com/YerongAI/Office-Tool/releases/download/v10.6.2.0/Office_Tool_v10.6.2.0_x86.zip",
-            "hash": "e983ed91185f886af9186c44e3b06637d8651015f36020f2565bb4e10c5af0a0"
+            "url": "https://github.com/YerongAI/Office-Tool/releases/download/v10.19.8.0/Office_Tool_v10.19.8.0_x86.zip",
+            "hash": "fffc8524e1051816442a140ee5e451cab9b1d5cf548cee159ce3c8559dd34544"
         },
         "arm64": {
-            "url": "https://github.com/YerongAI/Office-Tool/releases/download/v10.6.2.0/Office_Tool_v10.6.2.0_arm64.zip",
-            "hash": "523b54b3fd6e9cab6c3d4780f8bb7e474663e1644dcd652449f8b1b3bce8c8bd"
+            "url": "https://github.com/YerongAI/Office-Tool/releases/download/v10.19.8.0/Office_Tool_v10.19.8.0_arm64.zip",
+            "hash": "b49b1b7a23d9c014266050faba8580a17ac5744dc737855b3ad3799fa3bfc19b"
         }
     },
     "extract_dir": "Office Tool",

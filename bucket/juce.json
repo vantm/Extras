@@ -1,5 +1,5 @@
 {
-    "version": "7.0.10",
+    "version": "8.0.6",
     "description": "C++ audio application framework",
     "homepage": "https://juce.com",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/juce-framework/JUCE/releases/download/7.0.10/juce-7.0.10-windows.zip",
-            "hash": "d59a911f2dc5041ecf99d5770ab3765dd25760a030b5f5274bb86113377a636e"
+            "url": "https://github.com/juce-framework/JUCE/releases/download/8.0.6/juce-8.0.6-windows.zip",
+            "hash": "acff5e1ad95f9cff8e8019b1775abba1b1cb5079d1d89b88e216d405d2e123c8"
         }
     },
     "extract_dir": "JUCE",

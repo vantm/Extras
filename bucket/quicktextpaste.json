@@ -1,5 +1,5 @@
 {
-    "version": "8.77",
+    "version": "8.98",
     "description": "Insert pre-defined text in any Windows applications via keyboard shortcut.",
     "homepage": "https://www.softwareok.com/?Download=QuickTextPaste",
     "license": {
@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.com/Download/QuickTextPaste_x64_Portable.zip",
-            "hash": "059c0d6bed8d62136f98a16fdd2807d03d3314c113d46428083659e2dc3bf9ff",
+            "hash": "a01a04f72f773ce925ffad3a9d96e7cf90f18f72e41b5e2199183cd58cd326de",
             "bin": [
                 [
                     "QuickTextPaste_x64_p.exe",
@@ -25,7 +25,7 @@
         },
         "32bit": {
             "url": "https://www.softwareok.com/Download/QuickTextPaste_Portable.zip",
-            "hash": "463a6b6faf12f860605c834c77a0c87949028174df567261613a4f0b297effe8",
+            "hash": "4c7c25ba375da834fb1233ccd9afa2280a0e0159cfba140ef1cee8d9cf21da2a",
             "bin": [
                 [
                     "QuickTextPaste_p.exe",

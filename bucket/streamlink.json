@@ -1,23 +1,19 @@
 {
-    "version": "6.6.1-1",
+    "version": "7.1.2-1",
     "description": "A command-line utility that pipes video streams from various services into a video player.",
     "homepage": "https://streamlink.github.io/",
     "license": "BSD-2-Clause",
     "notes": "You will find your config file here: '$dir\\config'. To customise it, read the docs here: https://streamlink.github.io/cli/config.html#syntax",
     "suggest": {
         "ffmpeg": "ffmpeg",
-        "VLC Player": "extras/vlc"
+        "VLC player": "extras/vlc",
+        "mpv player": "extras/mpv"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/streamlink/windows-builds/releases/download/6.6.1-1/streamlink-6.6.1-1-py312-x86_64.zip",
-            "hash": "85b0f4ab6ba6f59d2a71dab0d9981214be703e102b4b7949d768f38030010a7f",
-            "extract_dir": "streamlink-6.6.1-1-py312-x86_64"
-        },
-        "32bit": {
-            "url": "https://github.com/streamlink/windows-builds/releases/download/6.6.1-1/streamlink-6.6.1-1-py312-x86.zip",
-            "hash": "5787cf25366830d46b27d598d6f0291f6f7bdab49357c7a9bf0b086cb4e79f75",
-            "extract_dir": "streamlink-6.6.1-1-py312-x86"
+            "url": "https://github.com/streamlink/windows-builds/releases/download/7.1.2-1/streamlink-7.1.2-1-py312-x86_64.zip",
+            "hash": "bd0593ceb73c369e8c4732bfb078cc8fed10bdf4ab450272882543aabe8f2e19",
+            "extract_dir": "streamlink-7.1.2-1-py312-x86_64"
         }
     },
     "pre_install": [
@@ -48,10 +44,6 @@
             "64bit": {
                 "url": "https://github.com/streamlink/windows-builds/releases/download/$version/streamlink-$version-py312-x86_64.zip",
                 "extract_dir": "streamlink-$version-py312-x86_64"
-            },
-            "32bit": {
-                "url": "https://github.com/streamlink/windows-builds/releases/download/$version/streamlink-$version-py312-x86.zip",
-                "extract_dir": "streamlink-$version-py312-x86"
             }
         }
     }

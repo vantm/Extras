@@ -1,13 +1,13 @@
 {
-    "version": "7.00.6700",
+    "version": "7.50.7200",
     "description": "System information, diagnostics, and auditing application",
     "homepage": "https://www.aida64.com",
     "license": {
         "identifier": "Shareware",
         "url": "https://www.aida64.com/licensing"
     },
-    "url": "http://download.aida64.com/aida64extreme700.zip",
-    "hash": "71958f6c44a3470844532f3280be409e1cf2987b3e55df238ad70e5634ebd8ca",
+    "url": "http://download.aida64.com/aida64extreme750.zip",
+    "hash": "5b905482274c012c9096999bd58761951f4ac5d76ac95ddaf17808920a32c2b8",
     "pre_install": [
         "$FILE = 'aida64.ini'",
         "if (!(Test-Path \"$persist_dir\\$FILE\")) {",

@@ -1,12 +1,12 @@
 {
-    "version": "2023-12",
+    "version": "2024-12",
     "description": "Eclipse IDE for Embedded C and C++ Developers",
     "homepage": "https://www.eclipse.org",
     "license": "EPL-1.0",
     "architecture": {
         "64bit": {
-            "url": "http://download.eclipse.org/technology/epp/downloads/release/2023-12/R/eclipse-embedcpp-2023-12-R-win32-x86_64.zip",
-            "hash": "sha512:0b9c8ab70ec507b0181c6d5011c7997b17250c47a7499533ea175ed235e70030f40b82af8ebd6bc737f621fd226a1580bec6810f6f29cd829350717c4f6ac05c"
+            "url": "http://download.eclipse.org/technology/epp/downloads/release/2024-12/R/eclipse-embedcpp-2024-12-R-win32-x86_64.zip",
+            "hash": "sha512:79975f829d5a577b9122c1524808e5e061c5359c0037d67a75fd48c43387ef45e9939aad0f13af9fa62df47290c0cff3a4aaa609dfdaee38b19707a014ed220b"
         }
     },
     "extract_dir": "eclipse",

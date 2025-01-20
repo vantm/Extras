@@ -1,13 +1,13 @@
 {
-    "version": "17.9",
+    "version": "18.7",
     "description": "Multimedia file converter",
     "homepage": "https://www.shutterencoder.com/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://www.shutterencoder.com/Shutter%20Encoder%2017.9%20Windows%2064bits.zip",
-            "hash": "5f56f0ee9f84f124f212ddcb01d01ecefca8c8318894bab3021775eabae27ac2",
-            "extract_dir": "Shutter Encoder 17.9 Windows 64bits"
+            "url": "https://www.shutterencoder.com/Shutter%20Encoder%2018.7%20Windows%2064bits.zip",
+            "hash": "8203781528258c212bbfd349c69fe655df68caf8a41d4785b0f5cce7991e645b",
+            "extract_dir": "Shutter Encoder 18.7 Windows 64bits"
         }
     },
     "shortcuts": [
@@ -19,7 +19,7 @@
     "persist": "settings.xml",
     "checkver": {
         "url": "https://www.shutterencoder.com/en/",
-        "regex": "Shutter Encoder ([\\d.]+) Windows 64bits\\.zip"
+        "regex": "Shutter Encoder ([\\d.]+) Windows 64bits\\.(?:zip|exe)"
     },
     "autoupdate": {
         "architecture": {

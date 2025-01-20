@@ -1,5 +1,5 @@
 {
-    "version": "8.0.8",
+    "version": "9.0.2",
     "description": "A Remote Desktop Software That Actually Works",
     "homepage": "https://anydesk.com/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://anydesk.com/terms"
     },
     "url": "https://download.anydesk.com/AnyDesk.exe",
-    "hash": "55e4ce3fe726043070ecd7de5a74b2459ea8bed19ef2a36ce7884b2ab0863047",
+    "hash": "0dcee93cbbf39f2e1d37024c279b0cd16409f08cc94faa4fccd285021022bfda",
     "bin": "AnyDesk.exe",
     "shortcuts": [
         [

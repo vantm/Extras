@@ -1,5 +1,5 @@
 {
-    "version": "1.16.2",
+    "version": "2.10.4",
     "description": "A snipping tool, which allows you to pin the screenshot back onto the screen.",
     "homepage": "https://www.snipaste.com/",
     "license": "Unknown",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://bitbucket.org/liule/snipaste/downloads/Snipaste-1.16.2-x64.zip",
-            "hash": "sha1:07681ceeb45dc4f8acbc1c2f3731773cef82162d"
+            "url": "https://bitbucket.org/liule/snipaste/downloads/Snipaste-2.10.4-x64.zip",
+            "hash": "sha1:893e8cba03c4082fdd56b4576e028f156b8fece7"
         },
         "32bit": {
-            "url": "https://bitbucket.org/liule/snipaste/downloads/Snipaste-1.16.2-x86.zip",
-            "hash": "sha1:c198dfa47010e6591e51299d985d7411e80d1f54"
+            "url": "https://bitbucket.org/liule/snipaste/downloads/Snipaste-2.10.4-x86.zip",
+            "hash": "sha1:22eb4bcc1d2366abe47e067a37ba3986fcc89449"
         }
     },
     "pre_install": [
@@ -29,7 +29,10 @@
         ]
     ],
     "persist": "history",
-    "checkver": "(?sm)Desktop.*?>v([\\d.]+) [^B]",
+    "checkver": {
+        "url": "https://www.snipaste.com/versions",
+        "jsonpath": "$.win_desktop_version"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {

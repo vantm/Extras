@@ -1,12 +1,12 @@
 {
-    "version": "7.0.10",
+    "version": "8.0.8",
     "description": "Electronics Design Automation Suite",
     "homepage": "https://www.kicad.org",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/KiCad/kicad-source-mirror/releases/download/7.0.10/kicad-7.0.10-x86_64.exe#/dl.7z",
-            "hash": "23f4b3ebc112d819e3ec306d22efd4b8c334313b80a5f9e6880b777c2cba0112"
+            "url": "https://github.com/KiCad/kicad-source-mirror/releases/download/8.0.8/kicad-8.0.8-x86_64.exe#/dl.7z",
+            "hash": "02c3a2b98c2ad8a75a7c2cc62c0aa91e00b516e94ae742291744dbf975600eda"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse",
@@ -41,7 +41,7 @@
             "Image Converter"
         ],
         [
-            "\bin\\kicad-cmd.bat",
+            "bin\\kicad-cmd.bat",
             "KiCad Command Prompt"
         ]
     ],

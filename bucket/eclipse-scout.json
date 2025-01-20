@@ -1,12 +1,12 @@
 {
-    "version": "2023-12",
+    "version": "2024-12",
     "description": "Eclipse IDE for Scout Developers",
     "homepage": "https://www.eclipse.org",
     "license": "EPL-1.0",
     "architecture": {
         "64bit": {
-            "url": "http://download.eclipse.org/technology/epp/downloads/release/2023-12/R/eclipse-scout-2023-12-R-win32-x86_64.zip",
-            "hash": "sha512:196ffe5ca03e433879b7e951027f3f9dd353adf5ea3986256600e923c62cd97c720a854baba81dbd346077e2f08016425e28f2c09427a13965fd8406604303eb"
+            "url": "http://download.eclipse.org/technology/epp/downloads/release/2024-12/R/eclipse-scout-2024-12-R-win32-x86_64.zip",
+            "hash": "sha512:85310fefbd6e473b3cd38e1cf9519610c20e73b957df4ba6ada615978a354e9b8c84231e907b709aa6bd0b167a4bb929504d74b99e14e330d44975cde94cb01c"
         }
     },
     "extract_dir": "eclipse",

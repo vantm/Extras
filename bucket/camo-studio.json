@@ -1,5 +1,5 @@
 {
-    "version": "2.1.8.11248",
+    "version": "2.1.34.13818",
     "description": "Use your phone as a webcam",
     "homepage": "https://reincubate.com/camo",
     "license": {
@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://reincubate.com/res/labs/camo/camo-windows-latest.msi",
-            "hash": "26173d74d8f7325dd5f93624dbb9b73ad55872937b1e55efe5e752e71cf79e8c"
+            "hash": "ae44c7828a7ced7157fd30e7e3a50e751363f37be892aeb43909be57e6c83878"
         }
     },
     "extract_dir": "Camo Studio",

@@ -1,5 +1,5 @@
 {
-    "version": "107.0.5045.21",
+    "version": "116.0.5366.35",
     "description": "Fast, secure, easy-to-use browser.",
     "homepage": "https://www.opera.com/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://get.geo.opera.com/pub/opera/desktop/107.0.5045.21/win/Opera_107.0.5045.21_Setup_x64.exe#/dl.7z",
-            "hash": "70cd32c47a3635876eb1bf8d1723bf3aeacc33c6378ef469e18febe27533f06e"
+            "url": "https://get.geo.opera.com/pub/opera/desktop/116.0.5366.35/win/Opera_116.0.5366.35_Setup_x64.exe#/dl.7z",
+            "hash": "b2d3b813da0de10d38322af151a16f6794b5baeaceaa37cc9c67f53f95b86e30"
         },
         "32bit": {
-            "url": "https://get.geo.opera.com/pub/opera/desktop/107.0.5045.21/win/Opera_107.0.5045.21_Setup.exe#/dl.7z",
-            "hash": "079057637130c47437fed0002f43bd642f3db12790e08f04ece5d104432cb4ee"
+            "url": "https://get.geo.opera.com/pub/opera/desktop/116.0.5366.35/win/Opera_116.0.5366.35_Setup.exe#/dl.7z",
+            "hash": "69cda71996a1d8d1cc42f281210f826bd2b4eb36e62a74f61541811468bf0064"
         }
     },
     "installer": {
@@ -24,12 +24,13 @@
             "   New-Item -Path \"$dir\\$version\\localization\" -ItemType Directory | Out-Null",
             "   Move-Item -Path \"$dir\\$version\\*.pak\" -Destination \"$dir\\$version\\localization\" -Exclude 'opera*' -ErrorAction Ignore",
             "}",
-            "Set-Content -Path \"$dir\\installer_prefs.json\" -Value (@{ 'autoupdate'= $false; 'enable_stats' = $false; 'single_profile' = $true } | ConvertTo-Json) -Encoding ASCII"
+            "Set-Content -Path \"$dir\\installer_prefs.json\" -Value (@{ 'autoupdate'= $false; 'enable_stats' = $false; 'single_profile' = $true } | ConvertTo-Json) -Encoding ASCII",
+            "Copy-Item \"$dir\\$version\\opera.exe\" \"$dir\""
         ]
     },
     "shortcuts": [
         [
-            "launcher.exe",
+            "opera.exe",
             "Opera"
         ]
     ],

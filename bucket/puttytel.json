@@ -1,20 +1,20 @@
 {
-    "version": "0.80",
+    "version": "0.82",
     "description": "A Telnet-only client that is not included in putty all-in-one archive/installer",
     "homepage": "https://www.chiark.greenend.org.uk/~sgtatham/putty/",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://the.earth.li/~sgtatham/putty/latest/w64/puttytel.exe",
-            "hash": "sha512:3a30923675b7747484f75a76af2eb14280316bc63eec6f49aff3936aa4aa47f9e2c45fd318f9340fdacea7fcf683f8e3de538d401f8420b4477e9ce0c5695f78"
+            "hash": "sha512:ebb7fb9880398fabf1028494da4b856e9abe38eeaef6837bbfae04ba0c11ca6e84356941d72b9e8d8c5c951b53f18267467b672d1ccde3e6d77913bcc49d1e16"
         },
         "32bit": {
             "url": "https://the.earth.li/~sgtatham/putty/latest/w32/puttytel.exe",
-            "hash": "sha512:ab1220153b868807d866a55a97bbb43159a37982aedcd5e86886d8a77153553516b573e205c7aa3ae517586050ecd15766574445c09b5a6880d0bae81338bf17"
+            "hash": "sha512:54f30289fcdf9e76cf0f8681a9ae2b0917b80ba1ea25bccc5d9354e86254bc8f807088fdeff21bb41390ea9de57c702e47fd3a4cd3d8fc09ee0e474804daf835"
         },
         "arm64": {
             "url": "https://the.earth.li/~sgtatham/putty/latest/wa64/puttytel.exe",
-            "hash": "sha512:64c989582c37cace760cd79d0b706eec6bff75d48354fcc838c96f069e090c02fc9884155463d60b477802ffd19e3411eec5d1ca749afaf251bee67bd3b10ed6"
+            "hash": "sha512:7675802c4d78b7b4d71b023ad41f8699ce88b427bf82e733e66685e9c1b472f157b521cc1d27d39f74a2303ac39f6c9cc910b8c4f989b9ef06564fc7ad513933"
         }
     },
     "bin": "puttytel.exe",

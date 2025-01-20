@@ -1,18 +1,22 @@
 {
-    "version": "3.3.1",
+    "version": "3.7.2",
     "description": "YouTube Music Desktop App bundled with custom plugins",
     "homepage": "https://github.com/th-ch/youtube-music",
     "license": "MIT",
+    "url": "https://github.com/th-ch/youtube-music/releases/download/v3.7.2/YouTube-Music-3.7.2.exe#/dl.7z",
+    "hash": "a67f7e73adc3d61f9aee03266c16207a1ed9617179bdedafe65b59fc94c9d588",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/th-ch/youtube-music/releases/download/v3.3.1/YouTube-Music-3.3.1.exe#/dl.7z",
-            "hash": "3c4219f72790971ae97c5662352012bb8cd0dd3087c912a635fe7269609259ad"
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" | Out-Null"
+        },
+        "32bit": {
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\" | Out-Null"
+        },
+        "arm64": {
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\" | Out-Null"
         }
     },
-    "pre_install": [
-        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" | Out-Null",
-        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
-    ],
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
     "shortcuts": [
         [
             "YouTube Music.exe",
@@ -21,10 +25,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/th-ch/youtube-music/releases/download/v$version/YouTube-Music-$version.exe#/dl.7z"
-            }
-        }
+        "url": "https://github.com/th-ch/youtube-music/releases/download/v$version/YouTube-Music-$version.exe#/dl.7z"
     }
 }

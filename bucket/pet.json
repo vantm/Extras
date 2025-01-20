@@ -1,5 +1,5 @@
 {
-    "version": "0.6.2",
+    "version": "1.0.1",
     "description": "Simple command-line snippet manager, written in Go.",
     "homepage": "https://github.com/knqyf263/pet",
     "license": "MIT",
@@ -8,16 +8,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/knqyf263/pet/releases/download/v0.6.2/pet_0.6.2_windows_amd64.tar.gz",
-            "hash": "c3af557c6a6d48d1a4ff05e5c0281da778d80a1ad3f29ef1db44c3e218786426"
+            "url": "https://github.com/knqyf263/pet/releases/download/v1.0.1/pet_1.0.1_windows_amd64.tar.gz",
+            "hash": "49c8346998958774513ee65977d8b9d9a327f76ca3a32caaa30ce1c98dadd64a"
         },
         "32bit": {
-            "url": "https://github.com/knqyf263/pet/releases/download/v0.6.2/pet_0.6.2_windows_386.tar.gz",
-            "hash": "3dd89664223065ab90fb2ac2ee2b598e97e98036d396158b9cf828a3ae766b45"
+            "url": "https://github.com/knqyf263/pet/releases/download/v1.0.1/pet_1.0.1_windows_386.tar.gz",
+            "hash": "7086b7eb3d96707fdc2ecc0789d71b52e1c8aca73fbd35a9e2ff6783366557e5"
         },
         "arm64": {
-            "url": "https://github.com/knqyf263/pet/releases/download/v0.6.2/pet_0.6.2_windows_arm64.tar.gz",
-            "hash": "eb36da7a740d137b21cadb134e78af6debc82bfb21095f98da92e4aca0dadfa9"
+            "url": "https://github.com/knqyf263/pet/releases/download/v1.0.1/pet_1.0.1_windows_arm64.tar.gz",
+            "hash": "9879245027bdfb342e5d7c6946744db5e403c448f84298e2a88a82c11d045fe1"
         }
     },
     "bin": "pet.exe",

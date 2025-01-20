@@ -1,16 +1,16 @@
 {
-    "version": "4.0.0",
+    "version": "4.2.1",
     "description": "A GUI builder for the wxWidgets framework.",
     "homepage": "https://github.com/wxFormBuilder/wxFormBuilder",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wxFormBuilder/wxFormBuilder/releases/download/v4.0.0/wxFormBuilder-4.0.0-ucrt-x86_64.zip",
-            "hash": "fad0c2198ef02115c5e0ce2b9edf7a609644e04eff27803e353a30e423d109dd"
+            "url": "https://github.com/wxFormBuilder/wxFormBuilder/releases/download/v4.2.1/wxFormBuilder-4.2.1-ucrt-x86_64.zip",
+            "hash": "44c9a989a07001e000ade3fa06b919fa67176053898fc8f120304ef9a53be147"
         },
         "32bit": {
-            "url": "https://github.com/wxFormBuilder/wxFormBuilder/releases/download/v4.0.0/wxFormBuilder-4.0.0-i686.zip",
-            "hash": "179b973b6c972643cd4b0b9a96b238235f5fe84fe1f5f697cd1cc8bf5c90f255"
+            "url": "https://github.com/wxFormBuilder/wxFormBuilder/releases/download/v4.2.1/wxFormBuilder-4.2.1-i686.zip",
+            "hash": "810be6dfdd5a28fd2535f143231a2589c2473e9637bc74bf4bb57f2901fe9a6e"
         }
     },
     "shortcuts": [

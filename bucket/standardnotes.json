@@ -1,16 +1,16 @@
 {
-    "version": "3.187.3",
+    "version": "3.195.13",
     "description": "A safe place for your notes, thoughts, and life's work.",
     "homepage": "https://standardnotes.org/",
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/standardnotes/app/releases/download/@standardnotes/desktop@3.187.3/standard-notes-3.187.3-win-x64.exe#/dl.7z",
-            "hash": "sha512:64dc777411c3224a7d1b136b4d45b84851e41a8ae6077d614cecbd7acefc9985b53240d76ce669aef21c14b38894df75948eaf16cee87e0f92308955fab6980d"
+            "url": "https://github.com/standardnotes/app/releases/download/@standardnotes/desktop@3.195.13/standard-notes-3.195.13-win-x64.exe#/dl.7z",
+            "hash": "sha512:bf87766364035267a061170f275512877b9321489119dc50c7c3bc725289168c66800075d4eb1618db0a5b1d61dd6217fd8f964011929ddedfc337f39f0bc667"
         },
         "32bit": {
-            "url": "https://github.com/standardnotes/app/releases/download/@standardnotes/desktop@3.187.3/standard-notes-3.187.3-win-ia32.exe#/dl.7z",
-            "hash": "sha512:f1acec643fad0cb42172211ca25f3aac403ce87168dd10bb9eb7c8557a289d097f4d43e91e525e32b2493d34ffac14d3793b95b7472ae244168da7079a2b7ef7"
+            "url": "https://github.com/standardnotes/app/releases/download/@standardnotes/desktop@3.195.13/standard-notes-3.195.13-win-ia32.exe#/dl.7z",
+            "hash": "sha512:835864c526d18bae123a4b98ce52d3ddc7c1d84ad5aeb933e335145786dcac44fd39ce1a945c0dab513e9cf28938387954b1160702080395d16a7c9093edb9f5"
         }
     },
     "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-$($architecture.Substring(0,2)).7z\" \"$dir\"",

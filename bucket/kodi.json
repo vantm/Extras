@@ -1,5 +1,5 @@
 {
-    "version": "20.4",
+    "version": "21.2",
     "description": "Open source home theater/media center software and entertainment hub for digital media",
     "homepage": "https://kodi.tv/",
     "license": "GPL-2.0-or-later",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.kodi.tv/releases/windows/win64/kodi-20.4-Nexus-x64.exe#/dl.7z",
-            "hash": "408f6808564239153af9b5fa50e8ad82114e6a9905b7e58957a4cb18b296913c"
+            "url": "https://mirrors.kodi.tv/releases/windows/win64/kodi-21.2-Omega-x64.exe#/dl.7z",
+            "hash": "daac44fad06f4179f658f233bc777c47db24b3e9718b596b223aedc0f89de1b0"
         },
         "32bit": {
-            "url": "https://mirrors.kodi.tv/releases/windows/win32/kodi-20.4-Nexus-x86.exe#/dl.7z",
-            "hash": "74fc0e01b299a1f239f47d8ef95c3d1098788fcb3b00dffec9bd3b5437d5aace"
+            "url": "https://mirrors.kodi.tv/releases/windows/win32/kodi-21.2-Omega-x86.exe#/dl.7z",
+            "hash": "37516550aefb1e416801cba6c1ea2cf559c72ec336c99ade3507330c75aeb13a"
         }
     },
     "post_install": "'$PLUGINSDIR', '$TEMP', 'AppxManifest.xml', 'Uninstall.exe' | ForEach-Object { Remove-Item \"$dir\\$_\" -Recurse -Force }",
@@ -27,7 +27,7 @@
     "persist": "portable_data",
     "checkver": {
         "url": "https://kodi.tv/download/windows",
-        "regex": "Kodi v(?<version>[\\d.]+) \\((?<name>\\w+)\\)"
+        "regex": "kodi-(?<version>[\\d.]+)-(?<name>\\w+)"
     },
     "autoupdate": {
         "architecture": {
